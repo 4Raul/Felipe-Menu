@@ -1401,6 +1401,7 @@ local function YBAO_fake_script() -- ProximityV.LocalScript
 		script.Parent.Parent.Proximity.Visible = true
 		_G.Proximity = false
 		while _G.Proximity == true do
+			wait()
 			for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
 				if v.ClassName == "ProximityPrompt" then
 					v.HoldDuration = 4
@@ -1424,6 +1425,7 @@ local function MYIRS_fake_script() -- Proximity.LocalScript
 		script.Parent.Parent.ProximityV.Visible = true
 		_G.Proximity = true
 		while _G.Proximity == true do
+			wait()
 			for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
 				if v.ClassName == "ProximityPrompt" then
 					v.HoldDuration = 0.1
