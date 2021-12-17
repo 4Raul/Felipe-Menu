@@ -1393,14 +1393,14 @@ local function YRLSG_fake_script() -- SpamDinheiro.LocalScript
 	end)
 end
 coroutine.wrap(YRLSG_fake_script)()
-local function YBAO_fake_script() -- ProximityV.LocalScript 
+local function YBAO_fake_script() 
 	local script = Instance.new('LocalScript', ProximityV)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Visible = false
 		script.Parent.Parent.Proximity.Visible = true
 		_G.Proximity = false
-		while _G.Proximity == true do
+		if _G.Proximity == false then
 			wait()
 			for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
 				if v.ClassName == "ProximityPrompt" then
@@ -1417,14 +1417,14 @@ local function YBAO_fake_script() -- ProximityV.LocalScript
 	end)
 end
 coroutine.wrap(YBAO_fake_script)()
-local function MYIRS_fake_script() -- Proximity.LocalScript 
+local function MYIRS_fake_script()
 	local script = Instance.new('LocalScript', Proximity)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Visible = false
 		script.Parent.Parent.ProximityV.Visible = true
 		_G.Proximity = true
-		while _G.Proximity == true do
+		if _G.Proximity == true then
 			wait()
 			for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
 				if v.ClassName == "ProximityPrompt" then
