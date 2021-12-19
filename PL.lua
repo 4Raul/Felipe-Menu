@@ -642,7 +642,7 @@ UIGradient.Parent = Abrir
 
 -- Scripts:
 
-local function RUGL_fake_script() -- TextButton.LocalScript 
+local function HGFH_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local delay = 0.3
@@ -652,8 +652,8 @@ local function RUGL_fake_script() -- TextButton.LocalScript
 		script.Parent.Parent.Parent.Parent.Abrir.Visible = true
 	end)
 end
-coroutine.wrap(RUGL_fake_script)()
-local function IARHD_fake_script() -- PegarArmasV.LocalScript 
+coroutine.wrap(HGFH_fake_script)()
+local function HRYREYG_fake_script() -- PegarArmasV.LocalScript 
 	local script = Instance.new('LocalScript', PegarArmasV)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -676,8 +676,8 @@ local function IARHD_fake_script() -- PegarArmasV.LocalScript
 		wait(delayv)
 	end)
 end
-coroutine.wrap(IARHD_fake_script)()
-local function CZIS_fake_script() -- PegarArmas.LocalScript 
+coroutine.wrap(HRYREYG_fake_script)()
+local function YQJTU_fake_script() -- PegarArmas.LocalScript 
 	local script = Instance.new('LocalScript', PegarArmas)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -692,8 +692,8 @@ local function CZIS_fake_script() -- PegarArmas.LocalScript
 		workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver:FindFirstChild("Riot Shield").ITEMPICKUP)
 	end)
 end
-coroutine.wrap(CZIS_fake_script)()
-local function AAICIX_fake_script() -- VirarPrisioneiro.LocalScript 
+coroutine.wrap(YQJTU_fake_script)()
+local function ZLKXWB_fake_script() -- VirarPrisioneiro.LocalScript 
 	local script = Instance.new('LocalScript', VirarPrisioneiro)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -702,8 +702,8 @@ local function AAICIX_fake_script() -- VirarPrisioneiro.LocalScript
 		workspace.Remote.TeamEvent:FireServer("Bright orange")
 	end)
 end
-coroutine.wrap(AAICIX_fake_script)()
-local function QLNH_fake_script() -- VirarPrisioneiroV.LocalScript 
+coroutine.wrap(ZLKXWB_fake_script)()
+local function NLKSZDH_fake_script() -- VirarPrisioneiroV.LocalScript 
 	local script = Instance.new('LocalScript', VirarPrisioneiroV)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -712,8 +712,8 @@ local function QLNH_fake_script() -- VirarPrisioneiroV.LocalScript
 		workspace.Remote.TeamEvent:FireServer("Medium stone grey")
 	end)
 end
-coroutine.wrap(QLNH_fake_script)()
-local function DPKRX_fake_script() -- VirarPolicialV.LocalScript 
+coroutine.wrap(NLKSZDH_fake_script)()
+local function JZKZLPF_fake_script() -- VirarPolicialV.LocalScript 
 	local script = Instance.new('LocalScript', VirarPolicialV)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -722,8 +722,8 @@ local function DPKRX_fake_script() -- VirarPolicialV.LocalScript
 		workspace.Remote.TeamEvent:FireServer("Medium stone grey")
 	end)
 end
-coroutine.wrap(DPKRX_fake_script)()
-local function XHXUIA_fake_script() -- VirarPolicial.LocalScript 
+coroutine.wrap(JZKZLPF_fake_script)()
+local function JIZV_fake_script() -- VirarPolicial.LocalScript 
 	local script = Instance.new('LocalScript', VirarPolicial)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -732,8 +732,8 @@ local function XHXUIA_fake_script() -- VirarPolicial.LocalScript
 		workspace.Remote.TeamEvent:FireServer("Bright blue")
 	end)
 end
-coroutine.wrap(XHXUIA_fake_script)()
-local function LWWJOJ_fake_script() -- VirarCriminalV.LocalScript 
+coroutine.wrap(JIZV_fake_script)()
+local function GGXNG_fake_script() -- VirarCriminalV.LocalScript 
 	local script = Instance.new('LocalScript', VirarCriminalV)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -742,8 +742,8 @@ local function LWWJOJ_fake_script() -- VirarCriminalV.LocalScript
 		workspace.Remote.TeamEvent:FireServer("Medium stone grey")
 	end)
 end
-coroutine.wrap(LWWJOJ_fake_script)()
-local function OTDAEWK_fake_script() -- VirarCriminal.LocalScript 
+coroutine.wrap(GGXNG_fake_script)()
+local function BQMJWJ_fake_script() -- VirarCriminal.LocalScript 
 	local script = Instance.new('LocalScript', VirarCriminal)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -757,8 +757,8 @@ local function OTDAEWK_fake_script() -- VirarCriminal.LocalScript
 		spc.CFrame = CFrame.new(-975.896118, 106.223793, 2044.90454, 0, 0, -1, 0, 1, 0, 1, 0, 0)
 	end)
 end
-coroutine.wrap(OTDAEWK_fake_script)()
-local function CPPJ_fake_script() -- RemoverTela.LocalScript 
+coroutine.wrap(BQMJWJ_fake_script)()
+local function RLVOE_fake_script() -- RemoverTela.LocalScript 
 	local script = Instance.new('LocalScript', RemoverTela)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -767,8 +767,8 @@ local function CPPJ_fake_script() -- RemoverTela.LocalScript
 		game.Players.LocalPlayer.PlayerGui.Home.fadeFrame.Visible = false
 	end)
 end
-coroutine.wrap(CPPJ_fake_script)()
-local function IDHBTU_fake_script() -- RemoverTelaV.LocalScript 
+coroutine.wrap(RLVOE_fake_script)()
+local function TNPHEMO_fake_script() -- RemoverTelaV.LocalScript 
 	local script = Instance.new('LocalScript', RemoverTelaV)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -777,8 +777,8 @@ local function IDHBTU_fake_script() -- RemoverTelaV.LocalScript
 		game.Players.LocalPlayer.PlayerGui.Home.fadeFrame.Visible = true
 	end)
 end
-coroutine.wrap(IDHBTU_fake_script)()
-local function MEPNO_fake_script() -- ModArmas.LocalScript 
+coroutine.wrap(TNPHEMO_fake_script)()
+local function NRHF_fake_script() -- ModArmas.LocalScript 
 	local script = Instance.new('LocalScript', ModArmas)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -804,8 +804,8 @@ local function MEPNO_fake_script() -- ModArmas.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MEPNO_fake_script)()
-local function YEUVTG_fake_script() -- ModArmasV.LocalScript 
+coroutine.wrap(NRHF_fake_script)()
+local function SDDNPP_fake_script() -- ModArmasV.LocalScript 
 	local script = Instance.new('LocalScript', ModArmasV)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -831,8 +831,8 @@ local function YEUVTG_fake_script() -- ModArmasV.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YEUVTG_fake_script)()
-local function VQFSVSM_fake_script() -- Abrir.LocalScript 
+coroutine.wrap(SDDNPP_fake_script)()
+local function JHRTFVJ_fake_script() -- Abrir.LocalScript 
 	local script = Instance.new('LocalScript', Abrir)
 
 	local delay = 0.3
@@ -842,4 +842,4 @@ local function VQFSVSM_fake_script() -- Abrir.LocalScript
 		script.Parent.Visible = false
 	end)
 end
-coroutine.wrap(VQFSVSM_fake_script)()
+coroutine.wrap(JHRTFVJ_fake_script)()
