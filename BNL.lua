@@ -29,30 +29,28 @@ local L_3 = Instance.new("TextLabel")
 local Frame = Instance.new("Frame")
 local VirarLixeiro = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
-local SpamDinheiroV = Instance.new("TextButton")
-local UICorner_2 = Instance.new("UICorner")
-local SpamDinheiro = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
 local ProximityV = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
 local Proximity = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
-local Frame_2 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
 local SpawnNissan = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
 local SpawnGTR = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
 local SpawnAmarok = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
 local SpawnBaller = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 local VirarLixeiroV = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local SpawnFusca = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
 local I_3 = Instance.new("TextLabel")
 local F_2 = Instance.new("TextLabel")
 local E_5 = Instance.new("TextLabel")
 local Abrir = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local UIGradient = Instance.new("UIGradient")
 
 --Properties:
@@ -401,7 +399,7 @@ VirarLixeiro.Parent = Frame
 VirarLixeiro.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VirarLixeiro.BackgroundTransparency = 0.400
 VirarLixeiro.BorderColor3 = Color3.fromRGB(249, 249, 249)
-VirarLixeiro.Position = UDim2.new(0.042123381, 0, 0.301335454, 0)
+VirarLixeiro.Position = UDim2.new(0.042123381, 0, 0.160773203, 0)
 VirarLixeiro.Size = UDim2.new(0, 228, 0, 27)
 VirarLixeiro.Font = Enum.Font.GothamSemibold
 VirarLixeiro.Text = "<⬜> Virar Lixeiro"
@@ -411,39 +409,6 @@ VirarLixeiro.TextWrapped = true
 
 UICorner.CornerRadius = UDim.new(0, 3)
 UICorner.Parent = VirarLixeiro
-
-SpamDinheiroV.Name = "SpamDinheiroV"
-SpamDinheiroV.Parent = Frame
-SpamDinheiroV.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpamDinheiroV.BackgroundTransparency = 0.400
-SpamDinheiroV.BorderColor3 = Color3.fromRGB(249, 249, 249)
-SpamDinheiroV.Position = UDim2.new(0.042123381, 0, 0.168805346, 0)
-SpamDinheiroV.Size = UDim2.new(0, 228, 0, 27)
-SpamDinheiroV.Visible = false
-SpamDinheiroV.Font = Enum.Font.GothamSemibold
-SpamDinheiroV.Text = "<🟩> Spam Dinheiro"
-SpamDinheiroV.TextColor3 = Color3.fromRGB(89, 89, 89)
-SpamDinheiroV.TextSize = 14.000
-SpamDinheiroV.TextWrapped = true
-
-UICorner_2.CornerRadius = UDim.new(0, 3)
-UICorner_2.Parent = SpamDinheiroV
-
-SpamDinheiro.Name = "SpamDinheiro"
-SpamDinheiro.Parent = Frame
-SpamDinheiro.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpamDinheiro.BackgroundTransparency = 0.400
-SpamDinheiro.BorderColor3 = Color3.fromRGB(249, 249, 249)
-SpamDinheiro.Position = UDim2.new(0.042123381, 0, 0.168805346, 0)
-SpamDinheiro.Size = UDim2.new(0, 228, 0, 27)
-SpamDinheiro.Font = Enum.Font.GothamSemibold
-SpamDinheiro.Text = "<⬜> Spam Dinheiro"
-SpamDinheiro.TextColor3 = Color3.fromRGB(89, 89, 89)
-SpamDinheiro.TextSize = 14.000
-SpamDinheiro.TextWrapped = true
-
-UICorner_3.CornerRadius = UDim.new(0, 3)
-UICorner_3.Parent = SpamDinheiro
 
 ProximityV.Name = "ProximityV"
 ProximityV.Parent = Frame
@@ -459,8 +424,8 @@ ProximityV.TextColor3 = Color3.fromRGB(89, 89, 89)
 ProximityV.TextSize = 14.000
 ProximityV.TextWrapped = true
 
-UICorner_4.CornerRadius = UDim.new(0, 3)
-UICorner_4.Parent = ProximityV
+UICorner_2.CornerRadius = UDim.new(0, 3)
+UICorner_2.Parent = ProximityV
 
 Proximity.Name = "Proximity"
 Proximity.Parent = Frame
@@ -475,23 +440,15 @@ Proximity.TextColor3 = Color3.fromRGB(89, 89, 89)
 Proximity.TextSize = 14.000
 Proximity.TextWrapped = true
 
-UICorner_5.CornerRadius = UDim.new(0, 3)
-UICorner_5.Parent = Proximity
-
-Frame_2.Parent = Frame
-Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame_2.BackgroundTransparency = 0.600
-Frame_2.BorderColor3 = Color3.fromRGB(249, 249, 249)
-Frame_2.BorderSizePixel = 2
-Frame_2.Position = UDim2.new(0, 0, 0.44629702, 0)
-Frame_2.Size = UDim2.new(0, 247, 0, 0)
+UICorner_3.CornerRadius = UDim.new(0, 3)
+UICorner_3.Parent = Proximity
 
 SpawnNissan.Name = "SpawnNissan"
 SpawnNissan.Parent = Frame
 SpawnNissan.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SpawnNissan.BackgroundTransparency = 0.400
 SpawnNissan.BorderColor3 = Color3.fromRGB(249, 249, 249)
-SpawnNissan.Position = UDim2.new(0.0419999994, 0, 0.469999999, 0)
+SpawnNissan.Position = UDim2.new(0.0419999994, 0, 0.329437733, 0)
 SpawnNissan.Size = UDim2.new(0, 228, 0, 27)
 SpawnNissan.Font = Enum.Font.GothamSemibold
 SpawnNissan.Text = "<⬜>  Spawnar Nissan"
@@ -499,15 +456,15 @@ SpawnNissan.TextColor3 = Color3.fromRGB(89, 89, 89)
 SpawnNissan.TextSize = 14.000
 SpawnNissan.TextWrapped = true
 
-UICorner_6.CornerRadius = UDim.new(0, 3)
-UICorner_6.Parent = SpawnNissan
+UICorner_4.CornerRadius = UDim.new(0, 3)
+UICorner_4.Parent = SpawnNissan
 
 SpawnGTR.Name = "SpawnGTR"
 SpawnGTR.Parent = Frame
 SpawnGTR.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SpawnGTR.BackgroundTransparency = 0.400
 SpawnGTR.BorderColor3 = Color3.fromRGB(249, 249, 249)
-SpawnGTR.Position = UDim2.new(0.0419999994, 0, 0.601000011, 0)
+SpawnGTR.Position = UDim2.new(0.0419999994, 0, 0.460437775, 0)
 SpawnGTR.Size = UDim2.new(0, 228, 0, 27)
 SpawnGTR.Font = Enum.Font.GothamSemibold
 SpawnGTR.Text = "<⬜>  Spawnar GTR"
@@ -515,15 +472,15 @@ SpawnGTR.TextColor3 = Color3.fromRGB(89, 89, 89)
 SpawnGTR.TextSize = 14.000
 SpawnGTR.TextWrapped = true
 
-UICorner_7.CornerRadius = UDim.new(0, 3)
-UICorner_7.Parent = SpawnGTR
+UICorner_5.CornerRadius = UDim.new(0, 3)
+UICorner_5.Parent = SpawnGTR
 
 SpawnAmarok.Name = "SpawnAmarok"
 SpawnAmarok.Parent = Frame
 SpawnAmarok.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SpawnAmarok.BackgroundTransparency = 0.400
 SpawnAmarok.BorderColor3 = Color3.fromRGB(249, 249, 249)
-SpawnAmarok.Position = UDim2.new(0.0419999994, 0, 0.735000014, 0)
+SpawnAmarok.Position = UDim2.new(0.0379839353, 0, 0.722951829, 0)
 SpawnAmarok.Size = UDim2.new(0, 228, 0, 27)
 SpawnAmarok.Font = Enum.Font.GothamSemibold
 SpawnAmarok.Text = "<⬜>  Spawnar Amarok"
@@ -531,15 +488,15 @@ SpawnAmarok.TextColor3 = Color3.fromRGB(89, 89, 89)
 SpawnAmarok.TextSize = 14.000
 SpawnAmarok.TextWrapped = true
 
-UICorner_8.CornerRadius = UDim.new(0, 3)
-UICorner_8.Parent = SpawnAmarok
+UICorner_6.CornerRadius = UDim.new(0, 3)
+UICorner_6.Parent = SpawnAmarok
 
 SpawnBaller.Name = "SpawnBaller"
 SpawnBaller.Parent = Frame
 SpawnBaller.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SpawnBaller.BackgroundTransparency = 0.400
 SpawnBaller.BorderColor3 = Color3.fromRGB(249, 249, 249)
-SpawnBaller.Position = UDim2.new(0.0419999994, 0, 0.867999971, 0)
+SpawnBaller.Position = UDim2.new(0.0379839353, 0, 0.855951786, 0)
 SpawnBaller.Size = UDim2.new(0, 228, 0, 27)
 SpawnBaller.Font = Enum.Font.GothamSemibold
 SpawnBaller.Text = "<⬜>  Spawnar Baller"
@@ -547,8 +504,8 @@ SpawnBaller.TextColor3 = Color3.fromRGB(89, 89, 89)
 SpawnBaller.TextSize = 14.000
 SpawnBaller.TextWrapped = true
 
-UICorner_9.CornerRadius = UDim.new(0, 3)
-UICorner_9.Parent = SpawnBaller
+UICorner_7.CornerRadius = UDim.new(0, 3)
+UICorner_7.Parent = SpawnBaller
 
 VirarLixeiroV.Name = "VirarLixeiroV"
 VirarLixeiroV.Parent = Frame
@@ -564,8 +521,32 @@ VirarLixeiroV.TextColor3 = Color3.fromRGB(89, 89, 89)
 VirarLixeiroV.TextSize = 14.000
 VirarLixeiroV.TextWrapped = true
 
-UICorner_10.CornerRadius = UDim.new(0, 3)
-UICorner_10.Parent = VirarLixeiroV
+UICorner_8.CornerRadius = UDim.new(0, 3)
+UICorner_8.Parent = VirarLixeiroV
+
+SpawnFusca.Name = "SpawnFusca"
+SpawnFusca.Parent = Frame
+SpawnFusca.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpawnFusca.BackgroundTransparency = 0.400
+SpawnFusca.BorderColor3 = Color3.fromRGB(249, 249, 249)
+SpawnFusca.Position = UDim2.new(0.0419999994, 0, 0.589999974, 0)
+SpawnFusca.Size = UDim2.new(0, 228, 0, 27)
+SpawnFusca.Font = Enum.Font.GothamSemibold
+SpawnFusca.Text = "<⬜>  Spawnar Fusca"
+SpawnFusca.TextColor3 = Color3.fromRGB(89, 89, 89)
+SpawnFusca.TextSize = 14.000
+SpawnFusca.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 3)
+UICorner_9.Parent = SpawnFusca
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BackgroundTransparency = 0.600
+Frame_2.BorderColor3 = Color3.fromRGB(249, 249, 249)
+Frame_2.BorderSizePixel = 2
+Frame_2.Position = UDim2.new(0, 0, 0.300000012, 0)
+Frame_2.Size = UDim2.new(0, 247, 0, 0)
 
 I_3.Name = "I"
 I_3.Parent = Frame1
@@ -619,15 +600,15 @@ Abrir.TextScaled = true
 Abrir.TextSize = 14.000
 Abrir.TextWrapped = true
 
-UICorner_11.CornerRadius = UDim.new(0, 3)
-UICorner_11.Parent = Abrir
+UICorner_10.CornerRadius = UDim.new(0, 3)
+UICorner_10.Parent = Abrir
 
 UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 133, 133)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(147, 70, 255))}
 UIGradient.Parent = Abrir
 
 -- Scripts:
 
-local function OLDZYCT_fake_script() -- TextButton.LocalScript 
+local function PPEL_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local delay = 0.3
@@ -637,8 +618,8 @@ local function OLDZYCT_fake_script() -- TextButton.LocalScript
 		script.Parent.Parent.Parent.Parent.Abrir.Visible = true
 	end)
 end
-coroutine.wrap(OLDZYCT_fake_script)()
-local function RCYSQCR_fake_script() -- VirarLixeiro.LocalScript 
+coroutine.wrap(PPEL_fake_script)()
+local function HKMBRT_fake_script() -- VirarLixeiro.LocalScript 
 	local script = Instance.new('LocalScript', VirarLixeiro)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -647,38 +628,8 @@ local function RCYSQCR_fake_script() -- VirarLixeiro.LocalScript
 		game:GetService("ReplicatedStorage").BagulhoRemote.Trabalho:FireServer("Lixeiro")
 	end)
 end
-coroutine.wrap(RCYSQCR_fake_script)()
-local function MMONJM_fake_script() -- SpamDinheiroV.LocalScript 
-	local script = Instance.new('LocalScript', SpamDinheiroV)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Visible = false
-		script.Parent.Parent.SpamDinheiro.Visible = true
-		_G.SpamDinheiro = false
-		local delay = 0
-		while _G.SpamDinheiro == true do
-			wait(delay)
-			game:GetService("ReplicatedStorage").DropCash:FireServer(1)
-		end
-	end)
-end
-coroutine.wrap(MMONJM_fake_script)()
-local function JKDRCKD_fake_script() -- SpamDinheiro.LocalScript 
-	local script = Instance.new('LocalScript', SpamDinheiro)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Visible = false
-		script.Parent.Parent.SpamDinheiroV.Visible = true
-		_G.SpamDinheiro = true
-		local delay = 0
-		while _G.SpamDinheiro == true do
-			wait(delay)
-			game:GetService("ReplicatedStorage").DropCash:FireServer(1)
-		end
-	end)
-end
-coroutine.wrap(JKDRCKD_fake_script)()
-local function DYSVP_fake_script() -- ProximityV.LocalScript 
+coroutine.wrap(HKMBRT_fake_script)()
+local function HRDXG_fake_script() -- ProximityV.LocalScript 
 	local script = Instance.new('LocalScript', ProximityV)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -697,8 +648,8 @@ local function DYSVP_fake_script() -- ProximityV.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(DYSVP_fake_script)()
-local function QFDX_fake_script() -- Proximity.LocalScript 
+coroutine.wrap(HRDXG_fake_script)()
+local function EKAHXLA_fake_script() -- Proximity.LocalScript 
 	local script = Instance.new('LocalScript', Proximity)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -717,8 +668,8 @@ local function QFDX_fake_script() -- Proximity.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(QFDX_fake_script)()
-local function ZNGUTQY_fake_script() -- SpawnNissan.LocalScript 
+coroutine.wrap(EKAHXLA_fake_script)()
+local function VGUISZT_fake_script() -- SpawnNissan.LocalScript 
 	local script = Instance.new('LocalScript', SpawnNissan)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -739,8 +690,8 @@ local function ZNGUTQY_fake_script() -- SpawnNissan.LocalScript
 		wait(delay2)
 	end)
 end
-coroutine.wrap(ZNGUTQY_fake_script)()
-local function HXTFS_fake_script() -- SpawnGTR.LocalScript 
+coroutine.wrap(VGUISZT_fake_script)()
+local function FPYBYUL_fake_script() -- SpawnGTR.LocalScript 
 	local script = Instance.new('LocalScript', SpawnGTR)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -761,8 +712,8 @@ local function HXTFS_fake_script() -- SpawnGTR.LocalScript
 		wait(delay2)
 	end)
 end
-coroutine.wrap(HXTFS_fake_script)()
-local function SQJJGIJ_fake_script() -- SpawnAmarok.LocalScript 
+coroutine.wrap(FPYBYUL_fake_script)()
+local function MMUNXJZ_fake_script() -- SpawnAmarok.LocalScript 
 	local script = Instance.new('LocalScript', SpawnAmarok)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -783,8 +734,8 @@ local function SQJJGIJ_fake_script() -- SpawnAmarok.LocalScript
 		wait(delay2)
 	end)
 end
-coroutine.wrap(SQJJGIJ_fake_script)()
-local function SNLFTXD_fake_script() -- SpawnBaller.LocalScript 
+coroutine.wrap(MMUNXJZ_fake_script)()
+local function OTEBRSH_fake_script() -- SpawnBaller.LocalScript 
 	local script = Instance.new('LocalScript', SpawnBaller)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -805,8 +756,8 @@ local function SNLFTXD_fake_script() -- SpawnBaller.LocalScript
 		wait(delay2)
 	end)
 end
-coroutine.wrap(SNLFTXD_fake_script)()
-local function OQJC_fake_script() -- VirarLixeiroV.LocalScript 
+coroutine.wrap(OTEBRSH_fake_script)()
+local function SIZRH_fake_script() -- VirarLixeiroV.LocalScript 
 	local script = Instance.new('LocalScript', VirarLixeiroV)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -815,8 +766,30 @@ local function OQJC_fake_script() -- VirarLixeiroV.LocalScript
 		game:GetService("ReplicatedStorage").BagulhoRemote.Trabalho:FireServer("CI | Cidadão BNL")
 	end)
 end
-coroutine.wrap(OQJC_fake_script)()
-local function PUPL_fake_script() -- Abrir.LocalScript 
+coroutine.wrap(SIZRH_fake_script)()
+local function HWXN_fake_script() -- SpawnFusca.LocalScript 
+	local script = Instance.new('LocalScript', SpawnFusca)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("ReplicatedStorage").Events.buyVehicle:FireServer("", "Fusca", "Group1", 0, 19, 0, 375921)
+		wait(delay2)
+		local delay = 2
+		local delay2 = 1
+		local CFrameEnd = CFrame.new(-238.480637, 4.03251886, -1346.70691, 0.999843836, -4.4230335e-09, -0.0176728405, 4.37496706e-09, 1, -2.75846412e-09, 0.0176728405, 2.68071521e-09, 0.999843836)
+		local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(delay), {CFrame = CFrameEnd})
+		tween:Play()
+		wait(delay2)
+		local args = {
+			[1] = "Fusca",
+			[2] = "Group1"
+		}
+	
+		game:GetService("ReplicatedStorage").Events.spawnVehicle:FireServer(unpack(args))
+		wait(delay2)
+	end)
+end
+coroutine.wrap(HWXN_fake_script)()
+local function IJSMVJI_fake_script() -- Abrir.LocalScript 
 	local script = Instance.new('LocalScript', Abrir)
 
 	local delay = 0.3
@@ -826,4 +799,4 @@ local function PUPL_fake_script() -- Abrir.LocalScript
 		script.Parent.Visible = false
 	end)
 end
-coroutine.wrap(PUPL_fake_script)()
+coroutine.wrap(IJSMVJI_fake_script)()
