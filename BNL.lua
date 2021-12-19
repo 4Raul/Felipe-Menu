@@ -512,7 +512,7 @@ VirarLixeiroV.Parent = Frame
 VirarLixeiroV.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VirarLixeiroV.BackgroundTransparency = 0.400
 VirarLixeiroV.BorderColor3 = Color3.fromRGB(249, 249, 249)
-VirarLixeiroV.Position = UDim2.new(0.042123381, 0, 0.301335454, 0)
+VirarLixeiroV.Position = UDim2.new(0.0419999994, 0, 0.160999998, 0)
 VirarLixeiroV.Size = UDim2.new(0, 228, 0, 27)
 VirarLixeiroV.Visible = false
 VirarLixeiroV.Font = Enum.Font.GothamSemibold
@@ -608,7 +608,7 @@ UIGradient.Parent = Abrir
 
 -- Scripts:
 
-local function PPEL_fake_script() -- TextButton.LocalScript 
+local function AMILEHR_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local delay = 0.3
@@ -618,8 +618,8 @@ local function PPEL_fake_script() -- TextButton.LocalScript
 		script.Parent.Parent.Parent.Parent.Abrir.Visible = true
 	end)
 end
-coroutine.wrap(PPEL_fake_script)()
-local function HKMBRT_fake_script() -- VirarLixeiro.LocalScript 
+coroutine.wrap(AMILEHR_fake_script)()
+local function GRLQ_fake_script() -- VirarLixeiro.LocalScript 
 	local script = Instance.new('LocalScript', VirarLixeiro)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -628,8 +628,8 @@ local function HKMBRT_fake_script() -- VirarLixeiro.LocalScript
 		game:GetService("ReplicatedStorage").BagulhoRemote.Trabalho:FireServer("Lixeiro")
 	end)
 end
-coroutine.wrap(HKMBRT_fake_script)()
-local function HRDXG_fake_script() -- ProximityV.LocalScript 
+coroutine.wrap(GRLQ_fake_script)()
+local function QGVN_fake_script() -- ProximityV.LocalScript 
 	local script = Instance.new('LocalScript', ProximityV)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -648,8 +648,8 @@ local function HRDXG_fake_script() -- ProximityV.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(HRDXG_fake_script)()
-local function EKAHXLA_fake_script() -- Proximity.LocalScript 
+coroutine.wrap(QGVN_fake_script)()
+local function TPZKHT_fake_script() -- Proximity.LocalScript 
 	local script = Instance.new('LocalScript', Proximity)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -668,8 +668,8 @@ local function EKAHXLA_fake_script() -- Proximity.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(EKAHXLA_fake_script)()
-local function VGUISZT_fake_script() -- SpawnNissan.LocalScript 
+coroutine.wrap(TPZKHT_fake_script)()
+local function MXPB_fake_script() -- SpawnNissan.LocalScript 
 	local script = Instance.new('LocalScript', SpawnNissan)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -690,8 +690,8 @@ local function VGUISZT_fake_script() -- SpawnNissan.LocalScript
 		wait(delay2)
 	end)
 end
-coroutine.wrap(VGUISZT_fake_script)()
-local function FPYBYUL_fake_script() -- SpawnGTR.LocalScript 
+coroutine.wrap(MXPB_fake_script)()
+local function VSNDY_fake_script() -- SpawnGTR.LocalScript 
 	local script = Instance.new('LocalScript', SpawnGTR)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -712,8 +712,8 @@ local function FPYBYUL_fake_script() -- SpawnGTR.LocalScript
 		wait(delay2)
 	end)
 end
-coroutine.wrap(FPYBYUL_fake_script)()
-local function MMUNXJZ_fake_script() -- SpawnAmarok.LocalScript 
+coroutine.wrap(VSNDY_fake_script)()
+local function TMKXI_fake_script() -- SpawnAmarok.LocalScript 
 	local script = Instance.new('LocalScript', SpawnAmarok)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -734,8 +734,8 @@ local function MMUNXJZ_fake_script() -- SpawnAmarok.LocalScript
 		wait(delay2)
 	end)
 end
-coroutine.wrap(MMUNXJZ_fake_script)()
-local function OTEBRSH_fake_script() -- SpawnBaller.LocalScript 
+coroutine.wrap(TMKXI_fake_script)()
+local function USGZY_fake_script() -- SpawnBaller.LocalScript 
 	local script = Instance.new('LocalScript', SpawnBaller)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -756,8 +756,8 @@ local function OTEBRSH_fake_script() -- SpawnBaller.LocalScript
 		wait(delay2)
 	end)
 end
-coroutine.wrap(OTEBRSH_fake_script)()
-local function SIZRH_fake_script() -- VirarLixeiroV.LocalScript 
+coroutine.wrap(USGZY_fake_script)()
+local function UFFQN_fake_script() -- VirarLixeiroV.LocalScript 
 	local script = Instance.new('LocalScript', VirarLixeiroV)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -766,8 +766,8 @@ local function SIZRH_fake_script() -- VirarLixeiroV.LocalScript
 		game:GetService("ReplicatedStorage").BagulhoRemote.Trabalho:FireServer("CI | Cidadão BNL")
 	end)
 end
-coroutine.wrap(SIZRH_fake_script)()
-local function HWXN_fake_script() -- SpawnFusca.LocalScript 
+coroutine.wrap(UFFQN_fake_script)()
+local function ELQSQ_fake_script() -- SpawnFusca.LocalScript 
 	local script = Instance.new('LocalScript', SpawnFusca)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -788,8 +788,8 @@ local function HWXN_fake_script() -- SpawnFusca.LocalScript
 		wait(delay2)
 	end)
 end
-coroutine.wrap(HWXN_fake_script)()
-local function IJSMVJI_fake_script() -- Abrir.LocalScript 
+coroutine.wrap(ELQSQ_fake_script)()
+local function ABIWGJR_fake_script() -- Abrir.LocalScript 
 	local script = Instance.new('LocalScript', Abrir)
 
 	local delay = 0.3
@@ -799,4 +799,4 @@ local function IJSMVJI_fake_script() -- Abrir.LocalScript
 		script.Parent.Visible = false
 	end)
 end
-coroutine.wrap(IJSMVJI_fake_script)()
+coroutine.wrap(ABIWGJR_fake_script)()
