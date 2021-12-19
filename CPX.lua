@@ -51,6 +51,8 @@ local DeletarTimesV = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
 local DeletarMapaV = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
 local Abrir = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
 local UIGradient = Instance.new("UIGradient")
@@ -401,7 +403,7 @@ MudarVelocimetro.Parent = Frame
 MudarVelocimetro.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 MudarVelocimetro.BackgroundTransparency = 0.400
 MudarVelocimetro.BorderColor3 = Color3.fromRGB(249, 249, 249)
-MudarVelocimetro.Position = UDim2.new(0.0421233848, 0, 0.698925853, 0)
+MudarVelocimetro.Position = UDim2.new(0.0421233848, 0, 0.795311391, 0)
 MudarVelocimetro.Size = UDim2.new(0, 228, 0, 27)
 MudarVelocimetro.Font = Enum.Font.GothamSemibold
 MudarVelocimetro.Text = "<⬜> Mudar Velocidade do Carro"
@@ -417,7 +419,7 @@ MudarVelocimetroV.Parent = Frame
 MudarVelocimetroV.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 MudarVelocimetroV.BackgroundTransparency = 0.400
 MudarVelocimetroV.BorderColor3 = Color3.fromRGB(249, 249, 249)
-MudarVelocimetroV.Position = UDim2.new(0.042123381, 0, 0.301335454, 0)
+MudarVelocimetroV.Position = UDim2.new(0.042123381, 0, 0.353544295, 0)
 MudarVelocimetroV.Size = UDim2.new(0, 228, 0, 27)
 MudarVelocimetroV.Visible = false
 MudarVelocimetroV.Font = Enum.Font.GothamSemibold
@@ -500,7 +502,7 @@ DeletarMapa.Parent = Frame
 DeletarMapa.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 DeletarMapa.BackgroundTransparency = 0.400
 DeletarMapa.BorderColor3 = Color3.fromRGB(249, 249, 249)
-DeletarMapa.Position = UDim2.new(0.042123381, 0, 0.301335484, 0)
+DeletarMapa.Position = UDim2.new(0.042123381, 0, 0.353544325, 0)
 DeletarMapa.Size = UDim2.new(0, 228, 0, 27)
 DeletarMapa.Font = Enum.Font.GothamSemibold
 DeletarMapa.Text = "<⬜> Deletar Mapa (K)"
@@ -516,7 +518,7 @@ DeletarTimes.Parent = Frame
 DeletarTimes.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 DeletarTimes.BackgroundTransparency = 0.400
 DeletarTimes.BorderColor3 = Color3.fromRGB(249, 249, 249)
-DeletarTimes.Position = UDim2.new(0.0419999994, 0, 0.430000007, 0)
+DeletarTimes.Position = UDim2.new(0.0419999994, 0, 0.482208848, 0)
 DeletarTimes.Size = UDim2.new(0, 228, 0, 27)
 DeletarTimes.Font = Enum.Font.GothamSemibold
 DeletarTimes.Text = "<⬜> Deletar Times (P)"
@@ -532,7 +534,7 @@ DeletarStats.Parent = Frame
 DeletarStats.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 DeletarStats.BackgroundTransparency = 0.400
 DeletarStats.BorderColor3 = Color3.fromRGB(249, 249, 249)
-DeletarStats.Position = UDim2.new(0.0419999994, 0, 0.56253016, 0)
+DeletarStats.Position = UDim2.new(0.0419999994, 0, 0.614739001, 0)
 DeletarStats.Size = UDim2.new(0, 228, 0, 27)
 DeletarStats.Font = Enum.Font.GothamSemibold
 DeletarStats.Text = "<⬜> Deletar Stats (L)"
@@ -548,7 +550,7 @@ DeletarStatsV.Parent = Frame
 DeletarStatsV.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 DeletarStatsV.BackgroundTransparency = 0.400
 DeletarStatsV.BorderColor3 = Color3.fromRGB(249, 249, 249)
-DeletarStatsV.Position = UDim2.new(0.0419999994, 0, 0.56253016, 0)
+DeletarStatsV.Position = UDim2.new(0.0419999994, 0, 0.614739001, 0)
 DeletarStatsV.Size = UDim2.new(0, 228, 0, 27)
 DeletarStatsV.Visible = false
 DeletarStatsV.Font = Enum.Font.GothamSemibold
@@ -565,7 +567,7 @@ DeletarTimesV.Parent = Frame
 DeletarTimesV.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 DeletarTimesV.BackgroundTransparency = 0.400
 DeletarTimesV.BorderColor3 = Color3.fromRGB(249, 249, 249)
-DeletarTimesV.Position = UDim2.new(0.0419999994, 0, 0.430000007, 0)
+DeletarTimesV.Position = UDim2.new(0.0419999994, 0, 0.482208848, 0)
 DeletarTimesV.Size = UDim2.new(0, 228, 0, 27)
 DeletarTimesV.Visible = false
 DeletarTimesV.Font = Enum.Font.GothamSemibold
@@ -582,7 +584,7 @@ DeletarMapaV.Parent = Frame
 DeletarMapaV.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 DeletarMapaV.BackgroundTransparency = 0.400
 DeletarMapaV.BorderColor3 = Color3.fromRGB(249, 249, 249)
-DeletarMapaV.Position = UDim2.new(0.042123381, 0, 0.301335484, 0)
+DeletarMapaV.Position = UDim2.new(0.042123381, 0, 0.353544325, 0)
 DeletarMapaV.Size = UDim2.new(0, 228, 0, 27)
 DeletarMapaV.Visible = false
 DeletarMapaV.Font = Enum.Font.GothamSemibold
@@ -593,6 +595,22 @@ DeletarMapaV.TextWrapped = true
 
 UICorner_12.CornerRadius = UDim.new(0, 3)
 UICorner_12.Parent = DeletarMapaV
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BackgroundTransparency = 0.600
+Frame_2.BorderColor3 = Color3.fromRGB(249, 249, 249)
+Frame_2.BorderSizePixel = 2
+Frame_2.Position = UDim2.new(0.00803212821, 0, 0.759550035, 0)
+Frame_2.Size = UDim2.new(0, 247, 0, 0)
+
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BackgroundTransparency = 0.600
+Frame_3.BorderColor3 = Color3.fromRGB(249, 249, 249)
+Frame_3.BorderSizePixel = 2
+Frame_3.Position = UDim2.new(0.00401606411, 0, 0.317782968, 0)
+Frame_3.Size = UDim2.new(0, 247, 0, 0)
 
 Abrir.Name = "Abrir"
 Abrir.Parent = FelipeMenuCPX
@@ -615,7 +633,7 @@ UIGradient.Parent = Abrir
 
 -- Scripts:
 
-local function ESZC_fake_script() -- TextButton.LocalScript 
+local function ETEF_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local delay = 0.3
@@ -625,8 +643,8 @@ local function ESZC_fake_script() -- TextButton.LocalScript
 		script.Parent.Parent.Parent.Parent.Abrir.Visible = true
 	end)
 end
-coroutine.wrap(ESZC_fake_script)()
-local function EMTFW_fake_script() -- MudarVelocimetro.LocalScript 
+coroutine.wrap(ETEF_fake_script)()
+local function EREJOTA_fake_script() -- MudarVelocimetro.LocalScript 
 	local script = Instance.new('LocalScript', MudarVelocimetro)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1029,8 +1047,8 @@ local function EMTFW_fake_script() -- MudarVelocimetro.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EMTFW_fake_script)()
-local function PRVGJPP_fake_script() -- MudarVelocimetroV.LocalScript 
+coroutine.wrap(EREJOTA_fake_script)()
+local function MLBL_fake_script() -- MudarVelocimetroV.LocalScript 
 	local script = Instance.new('LocalScript', MudarVelocimetroV)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1433,8 +1451,8 @@ local function PRVGJPP_fake_script() -- MudarVelocimetroV.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PRVGJPP_fake_script)()
-local function QHOQD_fake_script() -- SpamDinheiroV.LocalScript 
+coroutine.wrap(MLBL_fake_script)()
+local function WWECRW_fake_script() -- SpamDinheiroV.LocalScript 
 	local script = Instance.new('LocalScript', SpamDinheiroV)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1448,8 +1466,8 @@ local function QHOQD_fake_script() -- SpamDinheiroV.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QHOQD_fake_script)()
-local function FNKNZE_fake_script() -- SpamDinheiro.LocalScript 
+coroutine.wrap(WWECRW_fake_script)()
+local function ATHIWC_fake_script() -- SpamDinheiro.LocalScript 
 	local script = Instance.new('LocalScript', SpamDinheiro)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1463,8 +1481,8 @@ local function FNKNZE_fake_script() -- SpamDinheiro.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FNKNZE_fake_script)()
-local function WOBT_fake_script() -- AutoFarmV.LocalScript 
+coroutine.wrap(ATHIWC_fake_script)()
+local function OOWQW_fake_script() -- AutoFarmV.LocalScript 
 	local script = Instance.new('LocalScript', AutoFarmV)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1492,8 +1510,8 @@ local function WOBT_fake_script() -- AutoFarmV.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WOBT_fake_script)()
-local function XZSU_fake_script() -- AutoFarm.LocalScript 
+coroutine.wrap(OOWQW_fake_script)()
+local function BBSR_fake_script() -- AutoFarm.LocalScript 
 	local script = Instance.new('LocalScript', AutoFarm)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1521,8 +1539,8 @@ local function XZSU_fake_script() -- AutoFarm.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XZSU_fake_script)()
-local function FQTP_fake_script() -- DeletarMapa.LocalScript 
+coroutine.wrap(BBSR_fake_script)()
+local function ICTX_fake_script() -- DeletarMapa.LocalScript 
 	local script = Instance.new('LocalScript', DeletarMapa)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1531,8 +1549,8 @@ local function FQTP_fake_script() -- DeletarMapa.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/zMarcxzz/delete-all/main/source"))()
 	end)
 end
-coroutine.wrap(FQTP_fake_script)()
-local function ZCCBX_fake_script() -- DeletarTimes.LocalScript 
+coroutine.wrap(ICTX_fake_script)()
+local function BDMPE_fake_script() -- DeletarTimes.LocalScript 
 	local script = Instance.new('LocalScript', DeletarTimes)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1541,8 +1559,8 @@ local function ZCCBX_fake_script() -- DeletarTimes.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/zMarcxzz/delete-all/main/source"))()
 	end)
 end
-coroutine.wrap(ZCCBX_fake_script)()
-local function VZYHOKE_fake_script() -- DeletarStats.LocalScript 
+coroutine.wrap(BDMPE_fake_script)()
+local function BKOZ_fake_script() -- DeletarStats.LocalScript 
 	local script = Instance.new('LocalScript', DeletarStats)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1551,8 +1569,8 @@ local function VZYHOKE_fake_script() -- DeletarStats.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/zMarcxzz/delete-all/main/source"))()
 	end)
 end
-coroutine.wrap(VZYHOKE_fake_script)()
-local function EHJX_fake_script() -- DeletarStatsV.LocalScript 
+coroutine.wrap(BKOZ_fake_script)()
+local function LBKOHW_fake_script() -- DeletarStatsV.LocalScript 
 	local script = Instance.new('LocalScript', DeletarStatsV)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1560,8 +1578,8 @@ local function EHJX_fake_script() -- DeletarStatsV.LocalScript
 		script.Parent.Parent.DeletarStats.Visible = true
 	end)
 end
-coroutine.wrap(EHJX_fake_script)()
-local function JUPLQCB_fake_script() -- DeletarTimesV.LocalScript 
+coroutine.wrap(LBKOHW_fake_script)()
+local function FSOBH_fake_script() -- DeletarTimesV.LocalScript 
 	local script = Instance.new('LocalScript', DeletarTimesV)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1569,8 +1587,8 @@ local function JUPLQCB_fake_script() -- DeletarTimesV.LocalScript
 		script.Parent.Parent.DeletarTimes.Visible = true
 	end)
 end
-coroutine.wrap(JUPLQCB_fake_script)()
-local function XWFXT_fake_script() -- DeletarMapaV.LocalScript 
+coroutine.wrap(FSOBH_fake_script)()
+local function VXFMSRB_fake_script() -- DeletarMapaV.LocalScript 
 	local script = Instance.new('LocalScript', DeletarMapaV)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1578,8 +1596,8 @@ local function XWFXT_fake_script() -- DeletarMapaV.LocalScript
 		script.Parent.Parent.DeletarMapa.Visible = true
 	end)
 end
-coroutine.wrap(XWFXT_fake_script)()
-local function SFZR_fake_script() -- Abrir.LocalScript 
+coroutine.wrap(VXFMSRB_fake_script)()
+local function GMFZ_fake_script() -- Abrir.LocalScript 
 	local script = Instance.new('LocalScript', Abrir)
 
 	local delay = 0.3
@@ -1589,4 +1607,4 @@ local function SFZR_fake_script() -- Abrir.LocalScript
 		script.Parent.Visible = false
 	end)
 end
-coroutine.wrap(SFZR_fake_script)()
+coroutine.wrap(GMFZ_fake_script)()
